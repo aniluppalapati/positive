@@ -1,25 +1,17 @@
+#include<stdio.h>
+int main(){
 
-#include <stdio.h>
-#include <stdlib.h>
+int n;
+scanf("%d",&n);
+if(a%2==0){
 
-int main()
-{
-    int a;
-    scanf("%d",&a);
-    if(a>0)
-    {
-        puts("it is positive integer");
+printf("even");
+}
+else{
 
-    }
-    else if(a<0)
-    {
-        puts("it is negative");
+printf("Odd");
+}
 
-    }
-    else
-    {
-        puts("it is zero");
-        return 0;
 
-    }
+return 0;
 }
